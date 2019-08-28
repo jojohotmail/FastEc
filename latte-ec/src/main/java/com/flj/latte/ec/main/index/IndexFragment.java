@@ -55,6 +55,11 @@ public class IndexFragment extends BottomItemFragment implements
     private Toolbar mToolbar = null;
 
     @Override
+    public Object setLayout() {
+        return R.layout.delegate_index;
+    }
+
+    @Override
     public void onBindView(@Nullable Bundle savedInstanceState, @NonNull View rootView) {
         mRecyclerView = $(R.id.rv_index);
         mRefreshLayout = $(R.id.srl_index);
@@ -192,12 +197,6 @@ public class IndexFragment extends BottomItemFragment implements
         AutoSize.autoConvertDensityOfGlobal(getActivity());
     }
 
-
-
-    @Override
-    public Object setLayout() {
-        return R.layout.delegate_index;
-    }
 
     @Override
     public void setDistanceY() {
