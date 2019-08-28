@@ -1,0 +1,19 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data":
+    {
+      "title": "FXP商城 V2版震撼来袭",
+      "content":"1.FXP商城 V2版震撼来袭\\n2.链式编程，调用简单\\n3.强大的自定义功能，一行代码轻松搞定\\n4.欢迎Star和Issue\\n5.github:<a href='http://github.com/alexliusheng'>http://github.com/alexliusheng</a>",
+      "update_log": "更新日志",
+      "version": "版本名称",
+      "version_i": 6,
+      "platform": "Android",
+      "target_size": "Apk文件大小",
+      "isforce": false,
+      "path":"http://test-1251233192.coscd.myqcloud.com/1_1.apk",
+      "android_url": "http://test-1251233192.coscd.myqcloud.com/1_1.apk",
+      "channel":"渠道标示",
+      "ios_url": "iOS app store地址（如果是ios记录一定要填写）"
+    }
+}

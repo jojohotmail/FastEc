@@ -1,0 +1,37 @@
+apply plugin: 'com.android.library'
+apply plugin: 'org.greenrobot.greendao' // apply plugin
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api project(':latte-ui')
+    //圆形图片
+    api 'de.hdodenhof:circleimageview:2.2.0'
+    //数据库依赖
+    api 'org.greenrobot:greendao-generator:3.2.2'
+    api 'org.greenrobot:greendao:3.2.2' // add library    //选择按钮
+    implementation 'com.kyleduo.switchbutton:library:2.0.0'
+}

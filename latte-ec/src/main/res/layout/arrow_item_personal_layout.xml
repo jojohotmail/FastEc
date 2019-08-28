@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="8dp"
+    android:background="@android:color/white">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_arrow_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="14dp"
+        android:gravity="center"
+        tools:ignore="RelativeOverlap"
+        android:layout_marginStart="14dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_arrow_value"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="14dp"
+        android:layout_toLeftOf="@+id/icon_arrow"
+        android:gravity="center"
+        android:text="未设置"
+        android:layout_marginEnd="14dp"
+        android:layout_toStartOf="@+id/icon_arrow"
+        tools:ignore="HardcodedText" />
+
+    <com.joanzapata.iconify.widget.IconTextView
+        android:id="@+id/icon_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="{fa-chevron-right}"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/btn_v1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mainOnClick"
+        android:text="V1版（配置复杂，存在一定的内存泄漏）" />
+
+    <Button
+        android:id="@+id/btn_v2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mainOnClick"
+        android:text="V2版（使用简单，功能强大,强烈推荐）" />
+
+</LinearLayout>

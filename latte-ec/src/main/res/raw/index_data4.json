@@ -1,0 +1,78 @@
+{
+  "code": 0,
+  "message": "OK",
+  "total": 100,
+  "page_size": 6,
+  "data": [
+    {
+      "goodsId": 0,
+      "spanSize": 4,
+      "banners": [
+        "http://i1.fuimg.com/690589/654aa73585c1ff47.jpg",
+        "http://i1.fuimg.com/690589/83e0f3917203d19d.jpg",
+        "http://i1.fuimg.com/690589/80dd40a23a082776.jpg",
+        "http://i1.fuimg.com/690589/1d1da70f0a5a646b.jpg"
+      ]
+    },
+    {
+      "goodsId": 1,
+      "text": "明星单品——4",
+      "imageUrl": "http://i1.fuimg.com/690589/a2ac0a988a1fb879.jpg",
+      "spanSize": 4
+    },
+    {
+      "goodsId": 2,
+      "text": "小米9 6GB+128GB ",
+      "imageUrl": "https://i1.mifile.cn/a1/pms_1550642182.7527088!220x220.jpg",
+      "spanSize": 2
+    },
+    {
+      "goodsId": 3,
+      "text": "米家互联网洗烘一体机 Pro 10kg",
+      "imageUrl": "https://i1.mifile.cn/a1/pms_1560161251.21862332!220x220.jpg",
+      "spanSize": 2
+    },
+    {
+      "goodsId": 4,
+      "imageUrl": "https://i8.mifile.cn/v1/a1/656a5863-6af1-6302-4e36-a33bd49e45cb.webp?width=360&height=360",
+      "spanSize": 2
+    },
+    {
+      "goodsId": 5,
+      "imageUrl": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/cbcdb6c054d45c1afc955c87329e96f1.jpg?width=360&height=360",
+      "spanSize": 2
+    },
+    {
+      "goodsId": 6,
+      "imageUrl": "https://i8.mifile.cn/v1/a1/f093e0a8-e3d8-4fc8-deb7-af25ea3d8663.webp?width=360&height=360",
+      "spanSize": 2
+    },
+    {
+      "goodsId": 7,
+      "imageUrl": "https://i8.mifile.cn/v1/a1/b6c55f3b-d4ac-b2be-8d7c-3c818a79030a.webp?width=360&height=360",
+      "spanSize": 2
+    },
+    {
+      "goodsId": 5,
+      "text": "智能生活，从这里开始",
+      "spanSize": 4
+    },
+    {
+      "goodsId": 5,
+      "text": "小米净水器600G",
+      "imageUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/be4b9d0dbf80f70c4c0674b4e12a8e70.jpg",
+      "spanSize": 4
+    },
+    {
+      "goodsId": 6,
+      "text": "米家无线手持擦地机",
+      "imageUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3179a4eef6eb4ebe1c988cb386b6e244.jpg",
+      "spanSize": 4
+    },
+    {
+      "goodsId": 5,
+      "text": "我又是野广告",
+      "spanSize": 4
+    }
+  ]
+}
